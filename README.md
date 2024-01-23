@@ -50,6 +50,7 @@ Common:
   - `--format dump` - dump glyph images and font info, useful for debug.
   - `--format bin` - dump font in binary form (as described in [spec](https://github.com/lvgl/lv_font_conv/blob/master/doc/font_spec.md)).
   - `--format lvgl` - dump font in [LittlevGL](https://github.com/lvgl/lvgl) format.
+  - `--format cbin` - dump font in binary form that resembles lvgl format, suitable to be stored in flash, see [example](https://github.com/hyansuper/lv_font_conv/blob/master/cbin_example).
 - `--force-fast-kern-format` - always use more fast kering storage format,
   at cost of some size. If size difference appears, it will be displayed.
 - `--lcd` - generate bitmaps with 3x horizontal resolution, for subpixel
