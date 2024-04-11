@@ -1,8 +1,6 @@
 #include "lv_cbin.h"
 #include <stdio.h>
 
-#define MAX(A,B) (A<B?B:A)
-
 static void* malloc_cpy(void* src, size_t sz) {
     void* p = lv_malloc(sz);
     LV_ASSERT_MALLOC(p);
